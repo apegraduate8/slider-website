@@ -1,0 +1,185 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	height: 440px;
+	background-color: black;
+	padding: 2% 0;
+	position: relative;
+}
+.logo {
+	display: inline-block;
+	width: 100px;
+	float: left;
+	position: fixed;
+}
+#Capa_1 {
+	width: 80px;
+	height: 50px;
+	display: inline-block;
+}
+
+
+.container-hero {
+	width: 60%;
+	height: 85%;
+	position: relative;
+	margin: 3% auto;
+}
+
+
+.hero {
+	width: 100%;
+	height: 100%;
+	background-image: url("giphy.gif");
+	background-position: 50% 50%;
+	
+}
+.hero2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: radial-gradient(rgba(158, 158, 158, 0.5), #795548);
+	
+}
+
+.icon {
+	display: inline-block;
+	width: 100px;
+	height: 250px;
+	position: absolute;
+	top: 50%;
+	right: -4%;
+	transform: translateX(-30%);
+
+}
+#coffee-logo {
+	width: 50%;
+	height: 120%;
+	position: absolute;
+	top: 12%;
+	left: 23%;
+	z-index: 2;
+	background: url(coffee-logo.png) no-repeat; 
+	background-size: contain;
+}
+
+nav {
+	width: 60%;
+	height: 90%;
+	margin: 0 auto;
+	
+
+
+}
+nav a {
+	display: block;
+	width: 100%
+	height: 25%;
+	margin-top: 10%;
+
+
+}
+nav img {
+	width: 60%;
+	height: 25%;
+	margin: 2% 0;
+
+}
+
+
+/*  end of header*/
+
+main {
+	width: 100%;
+	height: 680px;
+	text-align: center;
+	overflow: hidden;
+}
+.sub-main {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+
+}
+.sub-main::-webkit-scrollbar {
+	display: none;
+}
+
+.mini-imgs {
+	width: 80%;
+	height: 40%;
+	margin: 0 auto;
+	background-color: #795548;
+	position: relative;
+
+}
+.mini-imgs img {
+	width: 100%;
+	height: 100%;
+}
+#one {
+	width: 50%;
+	height: 100%;
+	float: left;
+	
+	/*background: url("cup.jpg") no-repeat;
+	background-size: cover;*/
+}
+#two {
+	width: 50%;
+	height: 100%;
+	float: left;
+	/*background: url(cup.jpg) no-repeat;
+	background-size: cover;*/
+
+}
+#three {
+	width: 50%;
+	height: 100%;
+	float: left;
+	/*background: url("coffee2.jpeg") no-repeat;
+	background-size: cover;*/
+
+}
+
+.arrow {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+	width: 70px;
+	height: 60px;
+	transform: rotate(90deg);
+}
+
+.arrow2 {
+	position: absolute;
+	top: 820px;
+	right: 10px;
+	width: 70px;
+	height: 60px;
+	transform: rotate(-90deg);
+}
+
+.arrow3 {
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	width: 20px;
+	height: 30px;
+	transform: rotate(30deg);
+}
+
+
+
+
+
+
+
+
+
